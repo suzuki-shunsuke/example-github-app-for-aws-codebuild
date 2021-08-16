@@ -1,0 +1,13 @@
+---
+version: 0.2
+env:
+  git-credential-helper: yes
+  variables:
+    HELLO: HELLO
+  secrets-manager:
+    # https://github.com/nabeken/go-github-apps
+    GITHUB_PRIV_KEY: lambda-codebuilder-example-github-app-for-aws-codebuild:github_app_private_key
+phases:
+  build:
+    commands:
+      - bash build.sh

@@ -1,0 +1,14 @@
+messages:
+  start_build: |
+    # :x: Failed to start builds
+
+    {{.SHA}}
+
+    {{range .Errors}}
+    {{.StatusContext}}
+
+    ```
+    {{.Error}}
+    ```
+
+    {{end}}

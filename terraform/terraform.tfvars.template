@@ -1,0 +1,7 @@
+# Copy this file to terraform.tfvars
+# $ cp terraform.tfvars.template terraform.tfvars
+
+region         = "us-east-1"
+repo_full_name = "suzuki-shunsuke/example-github-app-for-aws-codebuild"
+github_app_id  = 0
+webhook_secret = "yy"
