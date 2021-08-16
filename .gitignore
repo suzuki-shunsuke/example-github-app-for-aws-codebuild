@@ -1,0 +1,9 @@
+dist
+terraform.tfstate
+terraform.tfstate*
+terraform.tfvars
+.terraform
+/src
+/dist
+*.zip
+*.pem
