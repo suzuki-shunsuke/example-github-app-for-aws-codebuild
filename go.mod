@@ -3,7 +3,7 @@ module github.com/suzuki-shunsuke/example-github-app-for-aws-codebuild
 go 1.16
 
 require (
-	github.com/aws/aws-lambda-go v1.26.0
+	github.com/aws/aws-lambda-go v1.27.0
 	github.com/aws/aws-sdk-go v1.40.23
 	github.com/google/go-github/v38 v38.1.0
 	github.com/sirupsen/logrus v1.8.1
