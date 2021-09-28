@@ -13,10 +13,6 @@
       "enabled": false
     },
     {
-      "matchUpdateTypes": ["major"],
-      "automerge": false
-    },
-    {
       "postUpdateOptions": ["gomodTidy"],
       "matchManagers": ["gomod"]
     }
